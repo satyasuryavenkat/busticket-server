@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/bus', busRouter);
 
 app.get('/', (req,res)=> {
-        res.send('Welcome to TodoList API');
+        res.send('Welcome to BusTicket API');
 });
 
 const CONNECTION_URL = 'mongodb+srv://satya:satya@cluster0.vthtfoh.mongodb.net/?retryWrites=true&w=majority';
